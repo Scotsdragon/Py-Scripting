@@ -1,0 +1,7 @@
+import urllib2
+
+responce = urllib2.urlopen('http://python.org/')
+
+html = responce.read()
+
+print(html)

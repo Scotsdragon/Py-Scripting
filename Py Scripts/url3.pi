@@ -1,0 +1,7 @@
+import urllib2
+
+req = urllib2.Request('http://my.pretend.server')
+
+responce = urllib2.urlopen(req)
+
+the_page = responce.read()

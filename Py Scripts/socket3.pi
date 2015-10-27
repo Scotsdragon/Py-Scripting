@@ -1,0 +1,7 @@
+import socket
+
+hostname = raw_input ("enter IP address ")
+
+hostIP = socket.getfqdn(hostname)
+
+print hostIP

@@ -1,0 +1,4 @@
+ipmort urllib2
+
+req = urllib2.Request('http://www.pretend_server.org')
+

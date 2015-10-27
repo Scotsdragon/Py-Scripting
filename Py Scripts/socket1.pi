@@ -1,0 +1,7 @@
+import socket
+
+hostname = "google.com"
+
+hostIP = socket.gethostbyname(hostname)
+
+print hostIP
